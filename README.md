@@ -6,4 +6,5 @@ Go to the page: [AdventJS](https://adventjs.dev/en)
 
 ## Challenges
 
-- Challenge #1: Automating Christmas gift wrapping! [(English)](Reto_01/Instructions.md) | [(Spanish)](Reto_01/Instrucciones.md) | [(My Solution)](Reto_01/wrapping.ts)
+- Challenge #1: Automating Christmas gift wrapping! [(English)](Challenge_01/Instructions.md) | [(Spanish)](Challenge_01/Instrucciones.md) | [(My Solution)](Challenge_01/wrapping.ts)
+- Challenge #02: Nobody wants to do extra hours at work [(English)](Challenge_02/Instructions.md) | [(Spanish)](Challenge_02/Instrucciones.md) | [(My Solution)](Challenge_02/countHours.ts)
