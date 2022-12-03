@@ -1,4 +1,4 @@
-# Reto #01: ¡Automatizando envolver regalos de navidad! (English)
+# Reto #01: ¡Automatizando envolver regalos de navidad! (Español)
 
 ## Instrucciones
 
