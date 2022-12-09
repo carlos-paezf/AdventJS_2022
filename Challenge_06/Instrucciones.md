@@ -1,17 +1,18 @@
-# Challenge #06: Creating xmas decorations (English)
+# Reto #06: Creando adornos navideños
 
-## Instructions
+## Instrucciones
 
-A couple of Christmas enthusiasts have created a Christmas decoration company. The first decoration they want to manufacture is a cube that is placed on the trees.
+Una pareja de entusiastas de la navidad ha creado una empresa de adornos navideños. El primer adorno que quieren fabricar es un cubo que se pone en los árboles.
 
-The problem is that they have to program the machine and they don't know how to do it. The have asked us for help to achieve it.
+El problema es que tienen que programar la máquina y no saben cómo hacerlo. Nos han pedido ayuda para lograrlo.
 
-To **create the cubes**, a number with the desired size is passed to the program and it returns a `string` with the design of that size. For example, if we pass a 3, the program must return a cube of 3x3x3:
+Para **crear los cubos** se le pasa un **número con el tamaño deseado** al programa y este devuelve un string con el **diseño de ese tamaño**. Por ejemplo, si le pasamos un 3, el programa debe devolver un cubo de 3x3x3:
 
 ```js
 const cube = createCube(3)
+```
 
-// output:
+```js
   /\_\_\_\
  /\/\_\_\_\
 /\/\/\_\_\_\
@@ -20,38 +21,40 @@ const cube = createCube(3)
   \/_/_/_/
 ```
 
-As you can see, the cube has three faces visually. The symbols used to build the cube faces are: `/`, `\`, `_`. In order to make the cube, some spaces are needed. Also, each line is separated by a new line character `\n`.
+Como ves el cubo tiene tres caras visualmente. Los símbolos que se usan para construir las caras del cubo son: `/`, `\`, `_` y (espacio en blanco).
 
-Other examples of cubes:
+Otros ejemplos de cubos:
 
 ```js
 const cubeOfOne = createCube(1)
+```
 
-// output:
+```js
 /\_\
 \/_/
 ```
 
 ```js
 const cubeOfTwo = createCube(2)
+```
 
-// output:
+```js
  /\_\_\
 /\/\_\_\
 \/\/_/_/
  \/_/_/
 ```
 
-Take into account:
+A tener en cuenta:
 
-- Pay attention to the spaces in the cube.
-- The cube has to be symmetrical.
-- Make sure you use the correct symbols.
-- Each line must be separated by a new line character \n except for the last one.
+- Fíjate bien en los espacios en blanco que hay en el cubo.
+- El cubo tiene que ser simétrico.
+- Asegúrate de usar los símbolos correctos.
+- Cada nueva línea del cubo debe terminar con un salto de línea (`\n`) excepto la última.
 
-## Results
+## Resultados
 
-All test passed!
+¡Todos los tests pasaron!
 
 ### Test #01 return type
 
@@ -97,7 +100,7 @@ Expected:
          /\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\\n        /\\/\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\\n       /\\/\\/\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\\n      /\\/\\/\\/\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\\n     /\\/\\/\\/\\/\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\\n    /\\/\\/\\/\\/\\/\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\\n   /\\/\\/\\/\\/\\/\\/\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\\n  /\\/\\/\\/\\/\\/\\/\\/\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\\n /\\/\\/\\/\\/\\/\\/\\/\\/\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\\n/\\/\\/\\/\\/\\/\\/\\/\\/\\/\\_\\_\\_\\_\\_\\_\\_\\_\\_\\_\\\n\\/\\/\\/\\/\\/\\/\\/\\/\\/\\/_/_/_/_/_/_/_/_/_/_/\n \\/\\/\\/\\/\\/\\/\\/\\/\\/_/_/_/_/_/_/_/_/_/_/\n  \\/\\/\\/\\/\\/\\/\\/\\/_/_/_/_/_/_/_/_/_/_/\n   \\/\\/\\/\\/\\/\\/\\/_/_/_/_/_/_/_/_/_/_/\n    \\/\\/\\/\\/\\/\\/_/_/_/_/_/_/_/_/_/_/\n     \\/\\/\\/\\/\\/_/_/_/_/_/_/_/_/_/_/\n      \\/\\/\\/\\/_/_/_/_/_/_/_/_/_/_/\n       \\/\\/\\/_/_/_/_/_/_/_/_/_/_/\n        \\/\\/_/_/_/_/_/_/_/_/_/_/\n         \\/_/_/_/_/_/_/_/_/_/_/
 ```
 
-## Score: 120
+## Puntaje: 120
 
-- **338** ops/s (Higher is better)
-- Cyclomatic complexity: **2** (Lower is better)
+- **338** ops/s (Más alto es mejor)
+- Complejidad ciclomática: **2** (Más bajo es mejor)
